@@ -15,7 +15,7 @@ const About = () => {
             <img src={profile_img} alt="" />
         </div>
         <div className="about-right">
-           <div className="about-pera">
+           <div className="about-para">
            <p>
             Hello, I'm Habiba Rashid Lamiya, a dynamic individual driven by a passion for technology and innovation. Currently, I'm thriving as a Junior Software Developer at Women In Digital, where I'm actively contributing to projects.Also I'm a Blockchain Instructor at Women In Digital.My journey in the realm of computer science began with a solid foundation laid during my SSC and HSC education, followed by a comprehensive exploration at North South University, where I graduated with a degree in Computer Science and Engineering.
             </p>
@@ -28,7 +28,7 @@ const About = () => {
            </div>
            <div className="about-skills">
              <div className="about-skill">
-              <p>HTML & CSS</p><hr style={{width:"90%"}}/>
+              <p>HTML & CSS</p><hr style={{width:"92%"}}/>
              </div>
              <div className="about-skill">
               <p>PHP</p><hr style={{width:"90%"}}/>
@@ -37,20 +37,33 @@ const About = () => {
               <p>Laravel</p><hr style={{width:"90%"}}/>
              </div>
              <div className="about-skill">
-              <p>Java Script</p><hr style={{width:"80%"}}/>
+              <p>Java Script</p><hr style={{width:"70%"}}/>
              </div>
              <div className="about-skill">
-              <p>React Js</p><hr style={{width:"70%"}}/>
+              <p>React Js</p><hr style={{width:"60%"}}/>
              </div>
            </div>
         </div>
-        
-    
-    </div>  
+      </div>  
 
-
-
-    </div>
+    <div className="about-achievements">
+          <div className="about-achievement">
+            <h1>10+</h1>
+            <p>Years of Experience</p>
+          </div>
+          <hr />
+          <div className="about-achievement">
+            <h1>90+</h1>
+            <p>Projects Completed</p>
+          </div>
+          <hr />
+          <div className="about-achievement">
+            <h1>15+</h1>
+            <p>Happy Clients</p>
+          </div>
+          <hr />
+        </div>
+  </div>
   )
 }
 
