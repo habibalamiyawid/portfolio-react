@@ -23,5 +23,18 @@
 .nav-connect:hover {
     background: linear-gradient(315deg, #b30aad   0%, #ba0c0c 74%);
 }
-
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu li img{
+    display: flex;
+    margin: auto;
+}
+.anchor-link{
+    text-decoration: none;
+    color: #ffffff;
+}
 

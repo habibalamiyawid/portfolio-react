@@ -4,7 +4,7 @@ import profile_img from '../../assets/profile_img.svg'
 import './Hero.css'
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div id='home' className='hero'>
       <img src={profile_img}alt="" />
 
       <h1><span>This is Habiba Rashid Lamiya,</span> Signing in from Bangladesh.</h1>

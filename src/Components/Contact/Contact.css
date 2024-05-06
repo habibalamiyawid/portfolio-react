@@ -105,4 +105,5 @@
 .contact-submit:hover{
     transform: scale(1.1);
     transition: 0.3s;
+    background: linear-gradient(315deg, #b30aad   0%, #ba0c0c 74%);
 }
