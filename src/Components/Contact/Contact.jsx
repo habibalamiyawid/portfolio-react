@@ -11,7 +11,7 @@ const Contact = () => {
         event.preventDefault();
         const formData = new FormData(event.target);
     
-        formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+        formData.append("access_key", "4e09fe49-a28e-4ce4-a9a9-bd7f86477197"); //Your Access Key
     
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
@@ -26,7 +26,7 @@ const Contact = () => {
         }).then((res) => res.json());
     
         if (res.success) {
-          console.log("Success", res);
+          alert(res.message)
         }
       };
   return (
@@ -60,7 +60,7 @@ const Contact = () => {
                  <label htmlFor="">Your Email</label>
                  <input type="email"  placeholder='Enter Your Email Address' name='email' />
                  <label htmlFor="">Write Your Massage Here</label>
-                 <textarea name="message" rows="8" placeholder='Enter Your Message'></textarea>
+                 <textarea name="message" rows="4" placeholder='Enter Your Message'></textarea>
                  <button type='submit' className="contact-submit">
                     Submit Now
                  </button>
