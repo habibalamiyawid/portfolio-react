@@ -62,7 +62,7 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 30px;
+    gap: 20px;
 }
 .contact-right label{
     color: #d8d8d8;
@@ -81,7 +81,7 @@
     /*font-family:outfit*/
 }
 .contact-right textarea{
-    width: 650px;
+    width: 670px;
     border: none;
     padding: 25px;
     border-radius: 4px;
@@ -96,7 +96,7 @@
     border-radius: 50px;
     background: linear-gradient(315deg, #ba0c0c 0%, #b30aad 74%);
     font-size: 22px;
-    padding: 20px 60px;
+    padding: 15px 40px;
     margin-bottom: 50px;
     cursor: pointer;
     transition: 0.3s
