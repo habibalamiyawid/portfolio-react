@@ -52,6 +52,9 @@
         display: none;
 
     }
+    .nav-connect:hover {
+        background: linear-gradient(315deg, #b30aad   0%, #ba0c0c 74%);
+    }
     .nav-mob-open{
         display: block;
         position: fixed;

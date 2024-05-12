@@ -45,6 +45,7 @@
 }
 .hero-connect:hover {
     background: linear-gradient(315deg,  #b30aad  0%, #ba0c0c 74%);
+    border: 2px solid #fff;
 }
 .hero-resume{
     padding: 10px 25px 10px 25px;
@@ -53,10 +54,7 @@
     cursor: pointer;
     transition:0.5s;
 }
-.hero-connect:hover {
-    border: 2px solid #fff;
-    
-}
+
 .hero-resume:hover{
     border-color: #b30aad;
 }
@@ -90,12 +88,22 @@
     padding: 15px 20px;
     border-radius: 40px;
     font-size:16px;
+    transition:0.5s;
 
+}
+.hero-connect:hover {
+    border: 2px solid #fff;
+    background: linear-gradient(315deg,  #b30aad  0%, #ba0c0c 74%);
 }
 .hero-resume{
     padding: 12px 30px;
     border-radius: 40px;
     font-size:16px;
+    transition:0.5s;
 
 }
+.hero-resume:hover{
+    border-color: #b30aad;
+}
+
 }
