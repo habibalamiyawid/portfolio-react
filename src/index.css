@@ -10,3 +10,8 @@ body{
   overflow-x:hidden ;
   /* font-family: 'outfit'; */
 }
+html {
+  scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth; /* For Safari */
+  -moz-scroll-behavior: smooth; /* For Firefox */
+}
