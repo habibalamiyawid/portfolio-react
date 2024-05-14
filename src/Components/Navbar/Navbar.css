@@ -43,6 +43,32 @@
 .nav-mob-open{
     display: none;
 }
+.social-links {
+    max-width: 100%;
+    font-size: 30px;
+    display: flex;
+    margin-right: 30px;
+    /* align-items: center; */
+    cursor: pointer;
+}
+
+.social-linkedin, 
+.social-github, 
+.social-facebook, 
+.social-instagram {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    color: white;
+    transition: 0.5s;
+}
+
+.social-linkedin:hover,
+.social-github:hover,
+.social-facebook:hover,
+.social-instagram:hover {
+    transform: scale(1.25);
+}
 @media(max-width:768px){
     .navbar{
         margin: 20px 50px;
@@ -86,6 +112,32 @@
         padding-left: 100px;
         flex-direction: row;
         gap: 20px;
+    }
+    .social-links {
+        max-width: 100%;
+        font-size: 40px;
+        display: flex;
+        margin-right: 50px;
+        /* align-items: center; */
+        cursor: pointer;
+    }
+    
+    .social-linkedin, 
+    .social-github, 
+    .social-facebook, 
+    .social-instagram {
+        display: flex;
+        justify-content: center;
+        padding: 8px;
+        color: white;
+        transition: 0.5s;
+    }
+    
+    .social-linkedin:hover,
+    .social-github:hover,
+    .social-facebook:hover,
+    .social-instagram:hover {
+        transform: scale(1.25);
     }
 
 }

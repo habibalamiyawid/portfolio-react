@@ -61,6 +61,40 @@
     transform: scale(1.1);
     background: linear-gradient(315deg, #b30aad   0%, #ba0c0c 74%);
 }
+.social-links-footer {
+    max-width: fit-content; 
+    font-size: 30px;
+    display: flex;
+    margin-right: 10px;
+    flex-wrap: wrap;
+    align-items: center; 
+    cursor: pointer;
+}
+
+.social-links-footer > * {
+    margin-right: 3px;
+    
+}
+
+.social-linkedin-footer, 
+.social-github-footer, 
+.social-facebook-footer, 
+.social-instagram-footer {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    color: white;
+    margin-bottom: 55px;
+    transition: 0.5s;
+}
+
+.social-linkedin-footer:hover,
+.social-github-footer:hover,
+.social-facebook-footer:hover,
+.social-instagram-footer:hover {
+    transform: scale(1.25);
+}
+
 @media(max-width:768px){
     .footer{
         margin: 50px 70px;
@@ -74,5 +108,38 @@
         display: flex;
         flex-direction: column-reverse;
         margin-bottom: 50px;
+    }
+    .social-links-footer {
+        max-width: fit-content; 
+        font-size: 30px;
+        display: flex;
+        margin-right: 10px;
+        flex-wrap: wrap;
+        align-items: center; 
+        cursor: pointer;
+    }
+    
+    .social-links-footer > * {
+        margin-right: 3px;
+        
+    }
+    
+    .social-linkedin-footer, 
+    .social-github-footer, 
+    .social-facebook-footer, 
+    .social-instagram-footer {
+        display: flex;
+        justify-content: center;
+        padding: 8px;
+        color: white;
+        margin-bottom: 55px;
+        transition: 0.5s;
+    }
+    
+    .social-linkedin-footer:hover,
+    .social-github-footer:hover,
+    .social-facebook-footer:hover,
+    .social-instagram-footer:hover {
+        transform: scale(1.25);
     }
 }

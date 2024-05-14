@@ -59,7 +59,7 @@
     outline: none;
     border: none;
     width: 50%;
-    height: 8px;
+    height: 15px;
     border-radius: 50px;
     background:  linear-gradient(315deg, #ba0c0c 0%, #b30aad 74%);
 }
@@ -145,7 +145,16 @@
    }
    .about-achievement{
     gap: 10px;
+    transition: 0.5s;
    }
+   .about-achievement:hover{
+    transform: scale(1.12);
+    transition: 0.5s;
+    background:  linear-gradient(315deg, #b30aad 0%,  #ba0c0c 74%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
    .about-achievement h1{
     font-size: 34px;
     font-weight: 700;

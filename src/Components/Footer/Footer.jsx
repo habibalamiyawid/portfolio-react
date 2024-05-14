@@ -2,6 +2,8 @@ import React from 'react'
 import './Footer.css'
 import footer_logo from '../../assets/footer_logo.svg'
 import user_icon from '../../assets/user_icon.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 
 
@@ -29,9 +31,23 @@ const Footer = () => {
                 @2024 Habiba Rashid Lamiya.All Rights Reserved
             </p>
             <div className="footer-bottom-right">
-                <p>Term Of Services</p>
+                {/* <p>Term Of Services</p>
                 <p>Privacy Policy</p>
-                <p>Connect with me</p>
+                <p>Connect with me</p> */}
+                <div className="social-links-footer">
+                    <a href="https://www.linkedin.com/in/habiba-rashid-lamiya-61b597263/" target="_blank" className="social-linkedin-footer">
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <a href="https://github.com/habibalamiyawid" target="_blank" className="social-github-footer">
+                        <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                    <a href="https://www.facebook.com/share/6roBYBkAPzgVXn7r/?mibextid=LQQJ4d" target="_blank" className="social-facebook-footer">
+                        <FontAwesomeIcon icon={faFacebook} />
+                    </a>
+                    <a href="https://www.instagram.com/habiba_lamiya/" target="_blank" className="social-instagram-footer">
+                        <FontAwesomeIcon icon={faInstagram} />
+                    </a>
+                </div>
             </div>
         </div>
     </div>
