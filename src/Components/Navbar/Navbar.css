@@ -141,3 +141,75 @@
     }
 
 }
+@media(max-width:425px){
+    .navbar{
+        margin: 20px 50px;
+
+    }
+    .nav-connect{
+        display: none;
+
+    }
+    .nav-connect:hover {
+        background: linear-gradient(315deg, #b30aad   0%, #ba0c0c 74%);
+    }
+    .nav-mob-open{
+        display: block;
+        position: fixed;
+        right: 30px;
+        /* right: 291px; */
+    }
+    .nav-mob-close{
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 20px;
+        width: 30px;
+    }
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 30px;
+        background-color: #1F0016;
+        width: 350px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -350px;
+    }
+    .nav-menu li{
+        font-size: 30px;
+        padding-left: 100px;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .social-links {
+        max-width: 100%;
+        font-size: 40px;
+        display: flex;
+        margin-right: 50px;
+        /* align-items: center; */
+        cursor: pointer;
+    }
+    
+    .social-linkedin, 
+    .social-github, 
+    .social-facebook, 
+    .social-instagram {
+        display: flex;
+        justify-content: center;
+        padding: 8px;
+        color: white;
+        transition: 0.5s;
+    }
+    
+    .social-linkedin:hover,
+    .social-github:hover,
+    .social-facebook:hover,
+    .social-instagram:hover {
+        transform: scale(1.25);
+    }
+
+}
