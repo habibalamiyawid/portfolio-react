@@ -23,7 +23,7 @@
 }
 .contact-section{
     display: flex;
-    gap: 150px;
+    gap: 50px;
 
 }
 .contact-left{
@@ -141,7 +141,7 @@
         font-size: 20px;
     }
     .contact-right input{
-        width: 240%;
+        /* width: 240%; */
         height: 60px;
         font-size: 18px;
     }

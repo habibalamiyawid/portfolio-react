@@ -10,6 +10,7 @@
     list-style: none;
     gap: 60px;
     font-size: 20px;
+  
 }
 .nav-connect{
     padding: 10px 25px 10px 25px;
@@ -48,7 +49,7 @@
     font-size: 30px;
     display: flex;
     margin-right: 30px;
-    /* align-items: center; */
+    align-items: center;
     cursor: pointer;
 }
 
@@ -71,7 +72,7 @@
 }
 @media(max-width:768px){
     .navbar{
-        margin: 20px 50px;
+        margin: 20px 2px;
 
     }
     .nav-connect{
