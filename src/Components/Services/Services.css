@@ -100,8 +100,32 @@
 
 }
 .services-container{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
 }
-    
+
+@media (max-width: 425px) {
+    .services-container {
+        grid-template-columns: 1fr; 
+        margin: 20px 20px;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .services-container {
+        grid-template-columns: 1fr; 
+        margin: 20px 0;
+    }
+    .services-title h1 {
+        font-size: 40px; 
+    }
+    .services-format {
+        padding: 20px; 
+        font-size: 16px; 
+    }
+    .services-format p {
+        line-height: 28px; 
+    }
+}

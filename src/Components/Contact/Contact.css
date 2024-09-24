@@ -141,7 +141,7 @@
         font-size: 20px;
     }
     .contact-right input{
-        /* width: 240%; */
+        width: 240% !important;
         height: 60px;
         font-size: 18px;
     }

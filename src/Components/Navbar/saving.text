@@ -1,87 +1,20 @@
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    margin: 20px 170px;
-}
-.nav-menu{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 60px;
-    font-size: 20px;
-  
-}
-.nav-connect{
-    padding: 10px 25px 10px 25px;
-    border-radius: 30px;
-    background:  linear-gradient(315deg, #ba0c0c 0%, #b30aad 74%);
-    font-size: 22px;
-    cursor: pointer;
-    transition:0.5s
-    
-}
-.nav-connect:hover {
-    background: linear-gradient(315deg, #b30aad   0%, #ba0c0c 74%);
-}
-.nav-menu li{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    cursor: pointer;
-}
-.nav-menu li img{
-    display: flex;
-    margin: auto;
-}
-.anchor-link{
-    text-decoration: none;
-    color: #ffffff;
-}
-.nav-mob-close{
-    display: none;
-}
-.nav-mob-open{
-    display: none;
-}
-.social-links {
-    max-width: 100%;
-    font-size: 30px;
-    display: flex;
-    margin-right: 30px;
-    align-items: center;
-    cursor: pointer;
-}
 
-.social-linkedin, 
-.social-github, 
-.social-facebook, 
-.social-instagram {
-    display: flex;
-    justify-content: center;
-    padding: 8px;
-    color: white;
-    transition: 0.5s;
-}
-
-.social-linkedin:hover,
-.social-github:hover,
-.social-facebook:hover,
-.social-instagram:hover {
-    transform: scale(1.25);
-}
-
-@media (max-width: 1024px) {
-    .navbar {
-        margin: 20px 50px;
-    }
-
+@media(max-width:1024px){
     .nav-menu {
+        display: flex;
+        align-items: center;
+        list-style: none;
         gap: 40px;
-        font-size: 18px;
+        font-size: 20px;
+    }
+    .social-linkedin, 
+    .social-github, 
+    .social-facebook, .social-instagram {
+   
+        padding: 16px;
+
     }
 }
-
 @media(max-width:768px){
     .navbar{
         margin: 20px 2px;
@@ -154,7 +87,6 @@
     }
 
 }
-
 @media(max-width:425px){
     .navbar{
         margin: 20px 50px;
