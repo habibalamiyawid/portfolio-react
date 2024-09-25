@@ -107,6 +107,16 @@
     transition: 0.3s;
     background: linear-gradient(315deg, #b30aad   0%, #ba0c0c 74%);
 }
+@media(max-width:1024px){
+    .contact-right input{
+        width: 140% !important;
+
+    }
+    .contact-right textarea {
+        width:128%;
+    }
+
+}
 @media(max-width:768px){
     .contact{
         gap: 50px;

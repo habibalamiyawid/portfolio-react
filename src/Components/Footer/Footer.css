@@ -95,6 +95,17 @@
     transform: scale(1.25);
 }
 
+@media(max-width:1024px){
+
+    .footer{
+        margin: 50px 72px;
+    }
+    .footer-top-left p {
+        margin-right: 24px;
+    }
+
+}
+
 @media(max-width:768px){
     .footer{
         margin: 50px 70px;

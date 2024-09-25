@@ -59,6 +59,14 @@
     background:  linear-gradient(315deg, #ba0c0c 0%, #b30aad 74%);
 
 }
+@media(max-width:1024px){
+    .mywork-container{
+        
+        grid-template-columns: 2fr 2fr ;
+        
+    
+    }
+}
 @media(max-width:768px){
     .mywork{
         gap: 50px;
