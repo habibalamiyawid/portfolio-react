@@ -54,7 +54,10 @@
     cursor: pointer;
     transition:0.5s;
 }
-
+.hero-resume a{
+    text-decoration: none;
+    color: #fff;
+}
 .hero-resume:hover{
     border-color: #b30aad;
 }
