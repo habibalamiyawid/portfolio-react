@@ -31,8 +31,9 @@
 .mywork-container img{
     box-sizing: border-box;
     width: 419px;
-    height: 280px;
+    height: 270px;
     transition: 0.3s;
+    border-radius: 10px;
     cursor: pointer;
 }
 .mywork-container img:hover{
