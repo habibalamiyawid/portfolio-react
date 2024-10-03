@@ -111,17 +111,26 @@
 @media(max-width:425px){
     .hero img {
         margin-top: 50px;
-        width: 260px;  
+        width: 100%;  
     }
     .hero h1 {
         margin-top: 10px;
         width: 100%;
         font-size: 26px;
-        
     }
     .hero p {
-        width: 88%;
-        font-size: 20px;
-        line-height: 25px;
+        width: 100%;
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+    .hero-action {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero-connect, .hero-resume {
+        width: 100%;
+        text-align: center;
     }
 }
+

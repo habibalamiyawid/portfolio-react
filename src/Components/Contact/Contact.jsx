@@ -30,7 +30,7 @@ const Contact = () => {
         }
       };
   return (
-    <div id='contact' className='contact'>
+    <div id='contact'className='contact'>
         <div className="contact-title">
             <h1>Get In Touch</h1>
             <img src={theme_pattern} alt="" />    
