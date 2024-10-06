@@ -1,9 +1,15 @@
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     margin: 20px 170px;
+    position: sticky;
+    top: 0;
+    background-color: transparent; /* Ensures it has a background when sticky */
+    z-index: 1000; /* Keeps it on top of other content */
+    padding: 10px 0; /* Optional: Adjust padding for better look */
 }
+
 .nav-menu{
     display: flex;
     align-items: center;

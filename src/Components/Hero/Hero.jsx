@@ -10,7 +10,7 @@ const Hero = () => {
 
       <h1><span>This is Habiba Rashid Lamiya,</span> Signing in from Bangladesh.</h1>
 
-      <p>Software Developer with a Passion for Innovation 🚀 | Graduate of North South University 🎓 |
+      <p>Software Developer with a Passion for Innovation 🚀| Block Chain Instructor | Graduate of North South University 🎓 |
          Lover of Smiles 😊 and Food Enthusiast 🍲 | Believer in Freedom and Boundless Creativity ✨ 
          Let's Code, Create, and Celebrate the Joy of Technology Together!
       </p>
