@@ -7,35 +7,41 @@ import project6_img from '../assets/project_6.png'
 
 const mywork_data = [
     {
-        w_no:1,
-        w_name:"Web design",
-        w_img:project1_img
+        w_no: 1,
+        w_name: "Web design",
+        w_img: project1_img,
+        w_url: "https://resturant-grilli.vercel.app/"  // Add the live link here
     },
     {
-        w_no:2,
-        w_name:"Web design",
-        w_img:project2_img
+        w_no: 2,
+        w_name: "Web design",
+        w_img: project2_img,
+        w_url: "https://bibi-russell-el6n.vercel.app/"
     },
     {
-        w_no:3,
-        w_name:"Web design",
-        w_img:project3_img
+        w_no: 3,
+        w_name: "Web design",
+        w_img: project3_img,
+        w_url: "https://e-trade-license.womenindigital.net/registration-step-1"
     },
     {
-        w_no:4,
-        w_name:"Web design",
-        w_img:project4_img
+        w_no: 4,
+        w_name: "Web design",
+        w_img: project4_img,
+        w_url: "https://ramgonjpourashava.com/"
     },
     {
-        w_no:5,
-        w_name:"Web design",
-        w_img:project5_img
+        w_no: 5,
+        w_name: "Web design",
+        w_img: project5_img,
+        w_url: "https://ecomerce-rouge.vercel.app/"
     },
     {
-        w_no:6,
-        w_name:"Web design",
-        w_img:project6_img
+        w_no: 6,
+        w_name: "Web design",
+        w_img: project6_img,
+        w_url: "https://resturant-grilli.vercel.app/"
     },
 ]
- 
+
 export default mywork_data;
