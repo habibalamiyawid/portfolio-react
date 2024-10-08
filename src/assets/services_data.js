@@ -1,10 +1,10 @@
 const Services_Data = [
     {
        
-            s_no: "01",
-            s_name: "Web design",
-            s_desc: "As a Junior Software Developer, I specialize in creating visually appealing and user-friendly web interfaces...",
-            full_desc: "As a Junior Software Developer, I specialize in creating visually appealing and user-friendly web interfaces. I have worked on numerous real-world projects during my time in the industry, where I focused on building intuitive and responsive front-end designs. My passion for web design extends beyond my job, and in my free time, I enjoy experimenting with new website ideas and layouts. On weekends, I challenge myself by taking on new projects, continuously improving my skills in modern web technologies. Let's bring your vision to life with clean, functional, and engaging web designs!"
+        s_no: "01",
+        s_name: "Web design",
+        s_desc: "As a Junior Software Developer, I specialize in creating visually appealing and user-friendly web interfaces...",
+        full_desc: "As a Junior Software Developer, I specialize in creating visually appealing and user-friendly web interfaces. I have worked on numerous real-world projects during my time in the industry, where I focused on building intuitive and responsive front-end designs.My passion for web design extends beyond my job, and in my free time, I enjoy experimenting with new website ideas and layouts. On weekends, I challenge myself by taking on new projects, continuously improving my skills in modern web technologies. Let's bring your vision to life with clean, functional, and engaging web designs!"
         
     },
     {
@@ -27,13 +27,15 @@ const Services_Data = [
     },
     {
         s_no:"05",
-        s_name:"Social media",
-        s_desc:"Web development is the process of building, programming...",
+        s_name:"Problem Solving",
+        s_desc:"I am passionate about honing my problem-solving skills and continuously...",
+        full_desc: "I am passionate about honing my problem-solving skills and continuously strive to improve through platforms like LeetCode. Tackling complex coding challenges not only sharpens my logical thinking but also enhances my ability to find efficient solutions under pressure. My approach involves breaking down problems into manageable parts and experimenting with different strategies to identify the best possible outcomes. This focus on problem-solving strengthens my technical skills and ensures that I am always prepared to handle the toughest challenges in software development."
     },
     {
         s_no:"06",
         s_name:"Content writing",
-        s_desc:"Web development is the process of building, programming..."
+        s_desc:"With excellent content writing skills, I manage a wide range of writing tasks...",
+        full_desc:"With excellent content writing skills, I manage a wide range of writing tasks within my company, contributing to both internal and external communications. In our small but dynamic team, I take on the responsibility of writing detailed documents, crafting informative blogs, and creating content that resonates with our audience. My writing is clear, engaging, and tailored to meet the needs of the company, helping to convey complex ideas in a simple and effective manner. Whether it's developing blog posts or drafting official documents, I ensure that every piece of content reflects the company's values and goals."
     },
 ]
  
