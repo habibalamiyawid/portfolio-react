@@ -1,3 +1,4 @@
+/* Main CSS for larger screens */
 .navbar {
     display: flex;
     align-items: center;
@@ -5,56 +6,73 @@
     margin: 20px 88px;
     position: sticky;
     top: 0;
-    background-color: #161513; /* Ensures it has a background when sticky */
-    z-index: 1000; /* Keeps it on top of other content */
-    padding: 10px 0; /* Optional: Adjust padding for better look */
+    background-color: #161513;
+    z-index: 1000;
+    padding: 10px 0;
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 60px;
     font-size: 20px;
 }
-.nav-connect{
-    padding: 10px 25px 10px 25px;
+/* Hamburger specific rules */
+.nav-mob-open {
+    display: none;
+    cursor: pointer;
+    width: 40px;
+}
+
+.nav-mob-close {
+    display: none;
+    width: 30px;
+}
+
+.nav-connect {
+    padding: 10px 25px;
     border-radius: 30px;
-    background:  linear-gradient(315deg, #ba0c0c 0%, #b30aad 74%);
+    background: linear-gradient(315deg, #ba0c0c 0%, #b30aad 74%);
     font-size: 22px;
     cursor: pointer;
-    transition:0.5s
-    
+    transition: 0.5s;
 }
+
 .nav-connect:hover {
-    background: linear-gradient(315deg, #b30aad   0%, #ba0c0c 74%);
+    background: linear-gradient(315deg, #b30aad 0%, #ba0c0c 74%);
 }
-.nav-menu li{
+
+.nav-menu li {
     display: flex;
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
 }
-.nav-menu li img{
+
+.nav-menu li img {
     display: flex;
     margin: auto;
 }
-.anchor-link{
+
+.anchor-link {
     text-decoration: none;
     color: #ffffff;
 }
-.nav-mob-close{
+
+.nav-mob-close {
     display: none;
 }
-.nav-mob-open{
+
+.nav-mob-open {
     display: none;
 }
+
 .social-links {
     max-width: 100%;
     font-size: 30px;
     display: flex;
     margin-right: 30px;
-    /* align-items: center; */
     cursor: pointer;
 }
 
@@ -75,147 +93,110 @@
 .social-instagram:hover {
     transform: scale(1.25);
 }
-@media(max-width:768px){
-    .navbar{
-        margin: 20px 50px;
 
+/* Breakpoints for responsiveness */
+@media (max-width: 1024px) {
+    .navbar {
+        margin: 20px 40px;
     }
-    .nav-connect{
-        display: none;
 
+    .nav-menu {
+        gap: 30px; /* Adjust the gap for smaller screens */
     }
-    .nav-connect:hover {
-        background: linear-gradient(315deg, #b30aad   0%, #ba0c0c 74%);
+
+    .nav-connect {
+        font-size: 20px;
     }
-    .nav-mob-open{
-        display: block;
-        position: fixed;
-        right: 30px;
-        /* right: 291px; */
-    }
-    .nav-mob-close{
-        display: block;
-        position: relative;
-        top: 30px;
-        left: 20px;
-        width: 30px;
-    }
-    .nav-menu{
-        position: fixed;
-        flex-direction: column;
-        align-items: start;
-        top: 0;
-        gap: 30px;
-        background-color: #1F0016;
-        width: 350px;
-        height: 100%;
-        z-index: 2;
-        transition: right 0.5s;
-        right: -350px;
-    }
-    .nav-menu li{
-        font-size: 30px;
-        padding-left: 100px;
-        flex-direction: row;
-        gap: 20px;
-    }
+
     .social-links {
-        max-width: 100%;
-        font-size: 40px;
-        display: flex;
-        margin-right: 50px;
-        /* align-items: center; */
-        cursor: pointer;
+        font-size: 28px;
     }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        margin: 20px 30px;
+    }
+
+    .nav-menu {
+        gap: 28px;
+    }
+
+    .nav-connect {
+        font-size: 18px;
+    }
+
+    .social-links {
+        font-size: 26px;
+    }
+
     
-    .social-linkedin, 
-    .social-github, 
-    .social-facebook, 
-    .social-instagram {
-        display: flex;
-        justify-content: center;
-        padding: 8px;
-        color: white;
-        transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        margin: 20px 24px;
     }
-    
-    .social-linkedin:hover,
-    .social-github:hover,
-    .social-facebook:hover,
-    .social-instagram:hover {
-        transform: scale(1.25);
+    .nav-menu {
+        gap: 24px;
     }
+    .nav-menu li {
+        font-size: 16px;
+    }
+
+    .social-links{
+        font-size: 16px;
+    }
+
 
 }
-@media(max-width:425px){
-    .navbar{
-        margin: 20px 50px;
 
-    }
-    .nav-connect{
-        display: none;
-
-    }
-    .nav-connect:hover {
-        background: linear-gradient(315deg, #b30aad   0%, #ba0c0c 74%);
-    }
-    .nav-mob-open{
+@media (max-width: 425px),(max-width: 375px) {
+    /* .navbar {
+        margin: 20px 24px;
+    } */
+    
+    .nav-mob-open {
         display: block;
         position: fixed;
-        right: 30px;
-        /* right: 291px; */
+        right: 20px;
+        top: 20px;
+        z-index: 2000;
     }
-    .nav-mob-close{
-        display: block;
-        position: relative;
-        top: 30px;
-        left: 20px;
-        width: 30px;
-    }
-    .nav-menu{
+
+    .nav-menu {
         position: fixed;
         flex-direction: column;
-        align-items: start;
+        align-items: flex-start;
         top: 0;
-        gap: 30px;
+        right: -350px; /* Initially hidden */
+        width: 300px;
+        height: 140vh;
         background-color: #1F0016;
-        width: 350px;
-        height: 100%;
-        z-index: 2;
-        transition: right 0.5s;
-        right: -350px;
+        transition: right 0.5s ease;
+        z-index: 1500;
+        padding-top: 100px;
     }
-    .nav-menu li{
-        font-size: 30px;
-        padding-left: 100px;
+
+    .nav-menu li {
+        font-size: 24px;
+        padding-left: 20px;
         flex-direction: row;
-        gap: 20px;
+        gap: 15px;
     }
-    .social-links {
-        max-width: 100%;
-        font-size: 40px;
-        display: flex;
-        margin-right: 50px;
-        /* align-items: center; */
+
+    .nav-mob-close {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 30px;
         cursor: pointer;
     }
-    
-    .social-linkedin, 
-    .social-github, 
-    .social-facebook, 
-    .social-instagram {
-        display: flex;
-        justify-content: center;
-        padding: 8px;
-        color: white;
-        transition: 0.5s;
+
+    .social-links{
+        font-size: 24px;
     }
-    
-    .social-linkedin:hover,
-    .social-github:hover,
-    .social-facebook:hover,
-    .social-instagram:hover {
-        transform: scale(1.25);
-    }
+
 
 }
