@@ -1,5 +1,4 @@
-.mywork{
-
+.mywork {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,28 +6,31 @@
     gap: 80px;
     margin: 80px 170px;
 }
-.mywork-title{
-    position: relative;
 
+.mywork-title {
+    position: relative;
 }
-.mywork-title h1{
+
+.mywork-title h1 {
     padding: 0px 30px;
     font-size: 80px;
     font-weight: 600;
 }
-.mywork-title img{
+
+.mywork-title img {
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: -1;
 }
-.mywork-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
 
+.mywork-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
+    gap: 40px;
 }
-.mywork-container img{
+
+.mywork-container img {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
@@ -36,13 +38,15 @@
     border-radius: 10px;
     cursor: pointer;
 }
-.mywork-container img:hover{
+
+.mywork-container img:hover {
     transform: scale(1.10);
-    border: 4px solid #b30aad ;
+    border: 4px solid #b30aad;
     border-radius: 10px;
     transition: 1.5s;
 }
-.mywork-showmore{
+
+.mywork-showmore {
     display: flex;
     gap: 15px;
     border-radius: 50px;
@@ -55,52 +59,116 @@
     cursor: pointer;
 }
 
-.mywork-showmore a{
+.mywork-showmore a {
     text-decoration: none;
     color: #fff;
 }
-.mywork-showmore:hover{
+
+.mywork-showmore:hover {
     gap: 30px;
     transition: 0.6s;
-    background:  linear-gradient(315deg, #ba0c0c 0%, #b30aad 74%);
-
+    background: linear-gradient(315deg, #ba0c0c 0%, #b30aad 74%);
 }
-@media(max-width:768px){
-    .mywork{
+
+/* Media query for devices with a width of 992px */
+@media (max-width: 992px) {
+    .mywork {
         gap: 50px;
         margin: 50px 70px;
         align-items: start;
     }
-    .mywork-title h1{
-       padding: 0;
-       font-size: 50px;
-       font-weight: 600;
+
+    .mywork-title h1 {
+        padding: 0;
+        font-size: 55px; /* Adjusted for smaller screens */
+        font-weight: 600;
     }
-    .mywork-title img{
+
+    .mywork-title img {
         width: 130px;
         margin-right: -20px;
- 
     }
-    .mywork-container{
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
 
+    .mywork-container {
+        grid-template-columns: 1fr 1fr; /* Adjust to 2 columns */
+        gap: 30px; /* Adjusted gap */
     }
-    .mywork-container img{
-        width: 100%;
-        height: 100%;
-    }
-    .mywork-showmore{
+
+    .mywork-showmore {
         padding: 10px 30px;
-        font-size: 18px;
-        /* align-items: center; */
+        font-size: 20px; /* Adjusted font size */
         margin: 50px auto;
-        cursor: pointer;
-
     }
-    .mywork-showmore:hover{
-        transition: 0.6s;
-        background:  linear-gradient(315deg, #ba0c0c 0%, #b30aad 74%);
-    
 }
+
+/* Media query for devices with a width of 768px */
+@media (max-width: 768px) {
+    .mywork {
+        gap: 40px;
+        margin: 40px 50px;
+        align-items: center; /* Center alignment for better layout */
+    }
+
+    .mywork-title h1 {
+        font-size: 45px; /* Adjusted for smaller screens */
+        padding: 0;
+    }
+
+    .mywork-container {
+        grid-template-columns: 1fr 1fr; /* Adjust to 2 columns */
+        gap: 20px; /* Adjusted gap */
+    }
+
+    .mywork-showmore {
+        padding: 10px 20px;
+        font-size: 18px; /* Adjusted font size */
+    }
+}
+
+/* Media query for devices with a width of 425px */
+@media (max-width: 425px) {
+    .mywork {
+        gap: 30px;
+        margin: 30px 20px;
+        align-items: center; /* Center alignment */
+    }
+
+    .mywork-title h1 {
+        font-size: 35px; /* Smaller font size */
+        padding: 0;
+    }
+
+    .mywork-container {
+        grid-template-columns: 1fr; /* 1 column layout */
+        gap: 15px; /* Adjusted gap */
+    }
+
+    .mywork-showmore {
+        padding: 8px 15px;
+        font-size: 16px; /* Adjusted font size */
+    }
+}
+
+/* Media query for devices with a width of 360px */
+@media (max-width: 360px) {
+    .mywork {
+        gap: 20px;
+        margin: 20px 10px; /* Smaller margins */
+        align-items: center; /* Center alignment */
+    }
+
+    .mywork-title h1 {
+        font-size: 28px; /* Smaller font size */
+        padding: 0;
+    }
+
+    .mywork-container {
+        grid-template-columns: 1fr; /* 1 column layout */
+        gap: 10px; /* Adjusted gap */
+    }
+
+    .mywork-showmore {
+        padding: 6px 10px;
+        font-size: 14px; /* Adjusted font size */
+    }
 }
