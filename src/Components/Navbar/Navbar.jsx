@@ -10,22 +10,28 @@ import { faLinkedin, faGithub, faFacebook, faInstagram } from '@fortawesome/free
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // Track if menu is open or not
   const menuRef = useRef();
 
   const openMenu = () => {
-    menuRef.current.style.right = "0";
+    menuRef.current.style.right = "0";  // Show menu
+    setIsMenuOpen(true);  // Set menu state to open
   };
 
   const closeMenu = () => {
-    menuRef.current.style.right = "-350px";
+    menuRef.current.style.right = "-350px";  // Hide menu
+    setIsMenuOpen(false);  // Set menu state to closed
   };
 
   return (
     <div className='navbar'>
-      {/* <img src={logo} alt="Logo" /> */}
-      <img src={menu_open} onClick={openMenu} alt="Open Menu" className='nav-mob-open' />
+      {!isMenuOpen && (  // Show the hamburger icon only if the menu is closed
+        <img src={menu_open} onClick={openMenu} alt="Open Menu" className='nav-mob-open' />
+      )}
       <ul ref={menuRef} className="nav-menu">
-        <img src={menu_close} onClick={closeMenu} alt="Close Menu" className="nav-mob-close" />
+        {isMenuOpen && (  // Show the close icon only if the menu is open
+          <img src={menu_close} onClick={closeMenu} alt="Close Menu" className="nav-mob-close" />
+        )}
         <li>
           <AnchorLink className='anchor-link' href='#home' onClick={() => setMenu("home")}>Home</AnchorLink>
           {menu === "home" && <img src={underline} alt='' />}
@@ -62,7 +68,6 @@ const Navbar = () => {
             <FontAwesomeIcon icon={faInstagram} />
           </a>
       </div>
-
     </div>
   )
 }

@@ -68,40 +68,104 @@
     transform: scale(1.05);
     transition: 0.4s;
 }
-@media (max-width:768px) {
-.services{
-    align-items: start;
-    gap: 70px;
-    margin: 20px 70px;
-}
-.services-title h1{
-    padding: 0;
-    font-size: 50px;
-}
-.services-title img{
-   width: 130px;
-   margin-right: -20px; 
-}
-.services-format{
-    gap:20px;
-    padding: 32px;
-}
-.services-format h2{
-    font-size: 28px;
+@media (max-width: 992px) {
+    .services {
+        margin: 40px 80px;
+    }
 
-}
-.services-format p{
-    font-size: 18px;
-    line-height:32px;
-    max-width: 300px;
-}
-.services-read-more img{
-    width: 20px;
+    .services-container {
+        grid-template-columns: 1fr 1fr;
+    }
 
+    .services-title h1 {
+        font-size: 55px;
+    }
+
+    .services-format h3, .services-format h2 {
+        font-size: 22px;
+    }
 }
-.services-container{
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+
+@media (max-width: 768px) {
+    .services {
+        align-items: start;
+        margin: 20px 70px;
+    }
+
+    .services-title h1 {
+        padding: 0;
+        font-size: 50px;
+    }
+
+    .services-title img {
+        width: 130px;
+        margin-right: -20px;
+    }
+
+    .services-format {
+        gap: 20px;
+        padding: 32px;
+    }
+
+    .services-format h2 {
+        font-size: 28px;
+    }
+
+    .services-format p {
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 300px;
+    }
+
+    .services-read-more img {
+        width: 20px;
+    }
+
+    .services-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
 }
+
+@media (max-width: 425px) {
+    .services {
+        margin: 20px 40px;
+    }
+
+    .services-title h1 {
+        font-size: 40px;
+    }
+
+    .services-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .services-format h2 {
+        font-size: 24px;
+    }
+
+    .services-format p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 375px) {
+    .services {
+        margin: 20px 20px;
+    }
+
+    .services-title h1 {
+        font-size: 35px;
+    }
+
+    .services-format h2 {
+        font-size: 22px;
+    }
+
+    .services-format p {
+        font-size: 15px;
+    }
 }
     
