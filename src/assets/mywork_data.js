@@ -17,7 +17,7 @@ const mywork_data = [
         w_no: 2,
         w_name: "Web design",
         w_img: project2_img,
-        w_url: "https://bibi-russell-el6n.vercel.app/"
+        w_url: "http://bibi.smartcardgenerator.net/"
     },
     {
         w_no: 3,
