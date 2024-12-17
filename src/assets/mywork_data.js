@@ -5,6 +5,7 @@ import project4_img from '../assets/project_4.jpg'
 import project5_img from '../assets/project_5.png'
 import project6_img from '../assets/project_6.jpg'
 import project7_img from '../assets/project_7.PNG'
+import project8_img from '../assets/project_8.png'
 
 const mywork_data = [
     {
@@ -48,6 +49,12 @@ const mywork_data = [
         w_name: "Web design",
         w_img: project7_img,
         w_url: "https://coffee-shop-91jamy4kp-lamiyas-projects.vercel.app/"
+    },
+    {
+        w_no: 8,
+        w_name: "Web design",
+        w_img: project8_img,
+        w_url: "https://car-rental-react-pied.vercel.app/?vercelToolbarCode=YtKn2DQ6wXNibDl"
     },
 ]
 
