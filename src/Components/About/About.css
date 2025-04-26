@@ -121,7 +121,18 @@
     width: 100%;
     height: 66%;
   }
-  
+  .company-name {
+    font-weight: bold;
+    color: #b30aad; /* A nice blue color */
+    transition: color 0.3s ease; /* Smooth transition for hover */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.company-name:hover {
+    color:#ba0c0c; /* Darker blue on hover */
+}
+
   /* Responsive styles for various breakpoints */
   
   /* For devices with max-width 1024px */
