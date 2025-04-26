@@ -17,7 +17,8 @@ const About = () => {
         <div className="about-right">
            <div className="about-para">
            <p>
-            Hello, I'm Habiba Rashid Lamiya, a dynamic individual driven by a passion for technology and innovation. Currently, I'm thriving as a Junior Software Developer at Women In Digital, where I'm actively contributing to projects.Also I'm a Blockchain Instructor at Women In Digital.My journey in the realm of computer science began with a solid foundation laid during my SSC and HSC education, followed by a comprehensive exploration at North South University, where I graduated with a degree in Computer Science and Engineering.
+           Hello, I'm Habiba Rashid Lamiya, a dynamic individual driven by a passion for technology and innovation. Currently, I am working as a Software Developer and SQA at Beraten Software Corporation, a USA-based IT firm. Previously, I worked at Women in Digital as a Junior Software Developer. I am still associated with Women in Digital as a part-time Blockchain Instructor, continuing to share my knowledge and skills with aspiring learners.
+           My journey in the realm of computer science began with a solid foundation laid during my SSC and HSC education, followed by a comprehensive exploration at North South University, where I graduated with a degree in Computer Science and Engineering.
             </p>
             <p>
             As a software developer, I thrive on the thrill of innovation, constantly seeking new ways to push the boundaries of what's possible. My approach to coding is not just about writing lines of code but about crafting solutions that inspire and empower.Beyond the screen, I'm an extroverted soul who finds joy in connecting with others. Whether it's making new friends, lending a listening ear, or engaging in meaningful conversations, I believe in the power of human connection to drive positive change.
